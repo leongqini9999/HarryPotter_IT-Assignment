@@ -10,7 +10,7 @@
     gap: 20px;
 
     padding: 14px 5%;
-    background-image:url(images/long-horizontal-banner-old-weathered-260nw-2763891453-removebg-preview.png);
+    background-image:url(images/parchment4.jpg.jpeg);
     background-size: 100% 220%;
     background-position: center;
     background-repeat: no-repeat;
@@ -18,7 +18,8 @@
     color: #FFD700;
 
     position: relative;
-    z-index: 100;}
+    z-index: 100;
+}
 
     /* Brand / Logo */
 
@@ -49,6 +50,16 @@
 
     font-size: 24px;
     font-family: Georgia, serif;
+}
+
+.harry-writing{
+    
+    width: 300px;
+    height: 60px;
+    flex-shrink: 0;
+    position: absolute;
+  left: 40%;
+  filter: contrast(1.5) brightness(0.8) saturate(2.5) drop-shadow(3px 5px 4px rgba(0, 0, 0, 0.7));
 }
 
 /* Dropdown container */
@@ -127,7 +138,7 @@
 
 /* ////-------Footer brand-----------/////// */
 .site-footer{
-    background-image:url(images/long-horizontal-banner-old-weathered-260nw-2763891453-removebg-preview.png);
+    background-image:url(images/concrete-wall-textured-backgrounds-built-structure-concept.jpg);
     background-size: 100% 220%;
     background-position: center;
     background-repeat: no-repeat;
@@ -140,7 +151,7 @@
 
 .footer-brand h2 {
     margin: 0 0 8px;
-    color: #FFD700;
+    color: #332c07;
 
     font-family: Georgia, serif;
     font-size: 25px;
@@ -148,7 +159,7 @@
 
 .footer-brand p {
     margin: 0;
-    color: #FFD700;
+    color: #584c07;
     font-size: 14px;
 }
 
@@ -165,7 +176,7 @@
 }
 
 .footer-nav a {
-    color: #F2E8D0;
+    color: #825c02;
     text-decoration: none;
     font-size: 14px;
 
@@ -173,14 +184,14 @@
 }
 
 .footer-nav a:hover {
-    color: #EBD59C;
+    color: #000000;
     text-decoration: underline;
 }
 
 /* Footer bottom information */
 
 .footer-bottom {
-    border-top: 1px solid #5B634F;
+    border-top: 1px solid #000000;
     padding-top: 18px;
     margin-top: 24px;
 
@@ -189,7 +200,7 @@
 
 .footer-bottom p {
     margin: 8px 0;
-    color: #CFC5AD;
+    color: #000000;
     font-size: 12px;
     line-height: 1.6;
 }
@@ -362,7 +373,7 @@ height: auto;
 aspect-ratio: 1/1;
 }
 .gallery-main{
-    background-image: url("images/—Pngtree—aged papyrus exquisite vintage texture_13348510.jpg");
+    background-image: url("images/parchment4.jpg.jpeg");
     background-size: 100% 100%;
     background-position: top center;
     background-repeat: no-repeat;
@@ -418,7 +429,7 @@ aspect-ratio: 1/1;
 /*-----------------------------house-------------------------------*/
 
 .house-main{
-    background-image: url("images/—Pngtree—aged papyrus exquisite vintage texture_13348510.jpg");
+    background-image: url("images/parchment4.jpg.jpeg");
     font-weight: bold;
 }
 
@@ -499,6 +510,16 @@ aspect-ratio: 1/1;
 
 @media(max-width:900px){
 
+
+     .brand-name{
+        
+        font-size: 75%;}
+    .harry-writing{
+        max-width: 180px;
+        width: 70%;
+        height: 60px;
+    }
+
     .events-page{
         padding: 50px 5%;
     }
@@ -547,6 +568,15 @@ aspect-ratio: 1/1;
         width: 36px;
         height: 36px;
         font-size: 20px;
+    }
+    .brand-name{
+        
+        font-size: 80%;
+    }
+    .harry-writing{
+        max-width: 140px;
+        width: 80%;
+        height: auto;
     }
  
     /* keep the dropdown inside the screen */
